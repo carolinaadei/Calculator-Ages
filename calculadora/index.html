@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator Study Group</h1>
+
+    <div class="container">
+        <input type="text" id="display" readonly> <!-- Campo para exibir os números -->
+
+        <div class="buttons">
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick="changeSignal()">+/-</button>
+            <button onclick="percentage()">%</button>
+            <button class="orange-button" onclick="division()">/</button>
+            <button onclick="seven()">7</button>
+            <button onclick="eight()">8</button>
+            <button onclick="nine()">9</button>
+            <button class="orange-button" onclick="multiplication()">*</button>
+            <button onclick="four()">4</button>
+            <button onclick="five()">5</button>
+            <button onclick="six()">6</button>
+            <button class="orange-button" onclick="subtract()">-</button>
+            <button onclick="one()">1</button>
+            <button onclick="two()">2</button>
+            <button onclick="three()">3</button>
+            <button class="orange-button" onclick="add()">+</button>
+            <button class="button-zero" onclick="zero()">0</button> 
+            <button onclick="comma()">,</button>
+            <button class="orange-button" onclick="equal()">=</button>
+            
+        </div>     
+    </div>
+</body>
+</html>
